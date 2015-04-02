@@ -6,7 +6,7 @@ include Win32
 
 # Get data from Clipboard
 a = Clipboard.data(Clipboard::UNICODETEXT)
-puts "Data was:[#{a}]"
+pp "Data was:[#{a}]"
 
 # Combine  lines
 a.gsub!(/-\r?\n\s*/, '-')
